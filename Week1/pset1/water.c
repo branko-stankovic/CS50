@@ -1,3 +1,8 @@
+/*
+*AUTHOR: Branko Stankovic
+*CONTACT: branko.stankovic@gmail.com
+*DATE CREATED: December 22nd 2016.
+*/
 #include <stdio.h>
 #include <cs50.h>
 
