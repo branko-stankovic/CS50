@@ -1,6 +1,7 @@
 /*AUTHOR: Branko Stankovic
-*CONTACT: branko.stankovic@gmail.com
-*DATE CREATED: December 23rd 2016
+contact: branko.stankovic@gmail.com
+webpage: http://meanwebdeveloper.wordpress.com
+DATE CREATED: December 23rd 2016
 */
 #include <stdio.h>
 #include <cs50.h>
