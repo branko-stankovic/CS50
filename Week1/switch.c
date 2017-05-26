@@ -1,13 +1,7 @@
-/*
-*AUTHOR: Branko Stankovic
-*CONTACT: branko.stankovic@gmail.com
-*DATE CREATED: 21. December 2016.
-*/
 #include <stdio.h>
 #include <cs50.h>
 
-int main(void) 
-{
+int main(void) {
     printf("Please enter an integer between 1 and 10:");
     int x = GetInt();
     
@@ -31,5 +25,7 @@ int main(void)
             break;
         default:
             printf("Your argument is invalid, please try again!");
-    }   
+    }
+    
+    
 }
