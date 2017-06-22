@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(void) {
-    printf("Please enter an integer between 1 and 10:");
-    int x = GetInt();
+int main(void) 
+{
+    printf("Please enter an integer between 1 and 10: ");
+    int x = get_int();
     
     switch(x)
     {
