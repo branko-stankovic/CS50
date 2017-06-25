@@ -1,14 +1,9 @@
-/*AUTHOR: Branko Stankovic
-contact: branko.stankovic@gmail.com
-webpage: http://meanwebdeveloper.wordpress.com
-DATE CREATED: January 6th 2017
-*/
 #include <stdio.h>
 
 int main(void)
 {
-    for (char x='A'; x<='Z'; x++) 
+    for (char c='A'; c <= 'Z'; c++)
     {
-        printf("%c is %i\n", x, (int)x);
+        printf("%c is %i\n", c, c);
     }
 }
