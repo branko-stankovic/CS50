@@ -1,0 +1,4 @@
+0. Anywhere from 3x3 up to 9x9 is valid, as by defined constant in the fifteen.c
+1. Two-dimensional array
+2. greet()
+3. init(), draw(), move() and won()
