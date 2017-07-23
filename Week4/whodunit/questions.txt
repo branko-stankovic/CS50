@@ -1,0 +1,26 @@
+1.  stdint.h is a header file from the C standard library, which provides a set of typedefs with specific and exact width integer types, along with defined minimum and maximum allowed values for each type.
+
+2.  Those are references to primitive data types, which are more precise, have minimum and maximum values, and exact width. They are most fast and more precise that the plain old int.
+
+3.  BYTE 8 bits
+    DWORD 32 bits
+    LONG 32 bits
+    WORD 16 bits
+    
+4.  BM (ASCII) or x42 x4D (hexadecimal)
+
+5.  bfSize size is bitmap file size in bytes. biSize is header size, which is 40 bytes at least.
+
+6.  Negative biHeight means that the order of  the pixels (their data) is ordered upside-down. In our example, the order was from top to bottom.
+
+7.  biBitCount containts the information about color depth or bits per pixel.
+
+8.  If the file cannot be opened for reading (line 24, return code 2), and if the outputed file cannot be opened for writing (line 32, return code 3).
+
+9.  Because the there is only one header for each bitmap file.
+
+10. It gets a value of 1, because it is the remainder after divided by 4.
+
+11. fseek() sets the file position.
+
+12. It is the current position of the position pointer on the file.
